@@ -1,1 +1,14 @@
+POR: Cristian Malacatus Cobos
+CURSO: 7° “A” 
+CARRERA: INGENIERIA EN SISTEMAS (U.N.L)
+PROGRAMA GENERADOR DE NUMEROS PSEUDO ALEATORIOS METODO CONGRUENCIAL MULTIPLICATIVO
+DOCUMENTACION
+El programa genera números pseudoaleatorios usando el método congruencial multiplicativo, para lo cual se deben ingresar tres valores y la cantidad de números que desea generar, para la formula |Xn+1=aXn mod m.| misma que cumple el algoritmo del método congruencial mixto, en el primer recuadro de la izquierda ingresamos el valor de m, en el segundo el valor de la semilla Xn, en el tercero el valor de a.
+Recuerde que x, a y c tienen que ser numeros impares y menores que m, existen otros parámetro para cumplir con lo que dice el algorotmo sobre estos el programa le advierte, si el numero que ingreso no es conveniente para cumplir con los parámetros de la metodología, luego se presiona el boto de empezar y el programa empezara a mostrar en la tabla, los números pseudo aleatorios generados.
+Si desea realizar una nueva generación de números con valores totalmente diferentes puede pulsar al botón “Nuevo” para limpiar todos los campos y asi volverlos a llenar de nuevo, o puede cambiar los valores a su gusto ubicando el cursor en el campo que se desee hacer el cambio.
+INFORMACION TECNICA DEL PROGRAMA
+El programa esta hecho con programación estructurada, lee cada uno de los valores ingresados en los respectivos campos, estos son comprobados con los métodos implementados, que se detallan a continuación:
+primo(); Este se encarga de verificar que el numero m ingresado sea primo y cupla con los parámetros de la metodología.
+Selecciona(); se encarga de que a cumpla con los parámetros de la metodología.
+Seleccionx(); se encarga de que X de que a cumpla con los parámetros de la metodología.
 
